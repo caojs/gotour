@@ -1,6 +1,6 @@
 package bs
 
-type List []int
+type List []interface{}
 
 func (list List) Search(value int) (int, bool) {
 	l := 0
